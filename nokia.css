@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Prompt:wght@100&family=Ubuntu:wght@300&display=swap');
+
+body
+{
+    font-size: 2vw;
+    margin: 0;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+.logo
+{
+    width: 6.25rem;
+    height: 1.063rem;
+}
+li.nav-item
+{
+    
+font-family: 'Ubuntu', sans-serif;
+    font-size: 0.875rem;
+    margin-right: 1rem;
+}
+li.nav-item :hover
+{
+    color: blue;
+}
+.bx-search,.bx-globe
+{
+    font-size: 1.3rem;
+    color: blue;
+}
+.img-c
+{
+   height: 35rem;
+}
+.slide-caption
+{
+    font-weight: 900;
+    font-size: 5rem;
+}
+.row1
+{
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+.row-inner
+{
+  position: relative;
+    
+    height: 100vh;
+    background-repeat: no-repeat;
+    height: 35rem;
+    filter: brightness(40%);
+    justify-content: center;
+    width: 70rem;
+    
+    
+}
+.section-text
+{
+   
+    position: absolute;
+    margin-top: 45rem;
+    margin-left: 3rem;
+    
+    margin-bottom: 15rem;
+}
+#section-container
+{
+position: relative;
+    background-position: center;
+    height: 42rem;
+    background-size: cover;
+   filter: brightness(60%);
+    background-repeat: no-repeat;
+}
+
+.col1{
+    transition: transform 0.5s;
+    z-index: 1;
+}
+.col1:hover
+{
+color: blue;
+transform: scale(1.01);
+}
+.article1
+{
+    background-image: url(Images/articleImg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 47rem;
+    width: 100vw;
+}
+.article-text
+{
+    width: 44rem !important;
+    margin: 8rem 0rem 0rem -2rem;
+}
+.card1
+{
+    height: 37rem !important;
+    margin: 17.5rem 2rem 0rem 1rem;
+}
+    .card-body
+    {
+        font-size: 4vw;
+    font-weight: 400;
+    }
+    
+    .subscribe
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 20rem;
+        align-items: center;
+    }
+    .footer-img-logo
+    {
+        width: 8rem;
+        margin: 3rem 0rem 0rem 4rem;
+    }
+    .btn1-insta
+    {
+        BORDER-RADIUS: 22PX !important;
+        WIDTH: 2.5REM;
+        HEIGHT: 2.5REM;
+        margin-left: 1rem;
+        color: white !important;
+    }
+    .sm-link
+    {
+        text-decoration: none;
+    color: white;
+    font-size: small;
+    margin-left: 40px;
+    }
+    #sm-footer
+    {
+        border-bottom: solid 1px;
+    }
+    .lst-head
+    {
+        font-size: 13px;
+        font-weight: 400;
+        color: white;
+    }
+    .lst-head:hover
+    {
+        color: aqua;
+    }
+    .consumer
+    {
+        color: white;
+        font-size: 13px;
+        font-weight: lighter;
+        line-height: 3rem;
+    }
+    .consumer li:hover
+    {
+        color: blue;
+        font-size: 13px;
+        font-weight: lighter;
+    }
+    .business 
+    {
+        line-height: 3rem;
+        color: white;
+        font-size: 13px;
+        font-weight: lighter;
+    }
+    .business li:hover
+    {
+        color: blue;
+        font-size: 13px;
+        font-weight: lighter;
+    }
+    .innovation
+    {
+        line-height: 3rem;
+        color: white;
+        font-size: 13px;
+        font-weight: lighter;
+    }
+    .innovartion li:hover
+    {
+        color: blue;
+        font-size: 13px;
+        font-weight: lighter;
+    }
+    .contact
+    {
+        line-height: 3rem;
+        color: white;
+        font-size: 13px;
+        font-weight: lighter;
+    }
+    .contact li:hover
+    {
+        color: blue;
+        font-size: 13px;
+        font-weight: lighter;
+    }
+    .about-us 
+    {
+        line-height: 3rem;
+        color: white;
+        font-size: 13px;
+        font-weight: lighter;
+    }
+    .about-us li:hover
+    {
+        color: blue;
+        font-size: 13px;
+        font-weight: lighter;
+    }
